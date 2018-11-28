@@ -92,7 +92,7 @@
 h2{
     font-family: 'Raleway', sans-serif;
     font-size: 60px;
-    color:#0000;
+    color:#FFFFFF;
 }
 
 h4{
@@ -159,7 +159,7 @@ th{
 }
 
 .wrap{
-  width: 30%;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
