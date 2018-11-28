@@ -92,7 +92,7 @@
 h2{
     font-family: 'Raleway', sans-serif;
     font-size: 60px;
-    color:#FFFFFF;
+    color:#0000;
 }
 
 h4{
