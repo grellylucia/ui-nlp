@@ -115,13 +115,13 @@ body{
 }
 
 .row-heading{
-    margin-left: 25%;
+    margin-left: 27%;
     margin-top: 10%;
     
 }
 
 .row-subheader{
-    margin-left:18%;
+    margin-left:20%;
     margin-bottom: 5%;
 }
 
@@ -130,11 +130,12 @@ body{
 }
 
 .btn-primary {
-    padding: 11px 30px;
     font-size: 16px;
     border: none;
     display: inline-block;
     margin-right: 3px;
+    width: 100px;
+    height: 45px;
 }
 
 th{
@@ -154,16 +155,18 @@ th{
 
 .btn{
     position: absolute;
-    right: 130px;
-    bottom: 275px;
+    right: 0%;
+    bottom: 15%;
+    
+}
+.wrap{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.wrap{
-  width: 100%;
-  position: absolute;
-  /* top: 50%;
-  left: 50%; */
-}
 </style>
 
 </html>
