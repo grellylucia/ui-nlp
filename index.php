@@ -17,13 +17,10 @@
     <div class="container pt-5">
         <div class="mt-5">
             
-            <div class="row-heading">
-                <h2>Klasifikasi Artikel</h2>
-            </div>
-
-            <div class="row-subheader">
-                <h4>Klasifikasi kategori artikel berbahasa Indonesia berdasarkan judul artikel</h4>
-            </div>
+            
+            <h2>Klasifikasi Artikel</h2>
+            
+            <h4>Klasifikasi kategori artikel berbahasa Indonesia berdasarkan judul artikel</h4>
             
 
             <form id="input_artikel" action="{{url('submit_text.store')}}">
@@ -91,14 +88,30 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:400,700|Roboto+Condensed');
 h2{
     font-family: 'Raleway', sans-serif;
-    font-size: 60px;
+    font-size: 400%;
     color:#FFFFFF;
+    word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+     margin-left: 26%;
+     margin-top: 10%;
 }
 
 h4{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 125%;
     color:#FFFFFF;
+    word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+     margin-left:20%;
+     margin-bottom: 5%;
 }
 body{
     background: url('nikita-kachanovsky-445394-unsplash.jpg') no-repeat center center fixed;
@@ -117,7 +130,6 @@ body{
 .row-heading{
     margin-left: 27%;
     margin-top: 10%;
-    
 }
 
 .row-subheader{
@@ -165,6 +177,14 @@ th{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media screen and (max-width:800px) {
+  h2{
+    font-size:300%;
+  }
+  h4{
+    font-size:90%;
+  }
 }
 
 </style>
