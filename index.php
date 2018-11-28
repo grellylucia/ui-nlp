@@ -30,11 +30,14 @@
                 <meta name="csfr-token" content="{{ csrf_token() }}" />
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     
-                    <div class="form-group">
-                        <input type="text" class="input-artikel" name="textArticle" id="text_article"  placeholder="Masukan judul artikel"></textarea>
+                    <div class="wrap">
+                        <div class="form-group">
+                            <input type="text" class="input-artikel" name="textArticle" id="text_article"  placeholder="Masukan judul artikel"></textarea>
+                        </div>
+                        <input class="form-group" type="hidden" name="categoryPredict" id="category_predict" />
+                        <button type="button" class="btn btn-primary" id="submit_text">Submit</button>
                     </div>
-                    <input class="form-group" type="hidden" name="categoryPredict" id="category_predict" />
-                    <button type="button" class="btn btn-primary" id="submit_text">Submit</button>
+                    
             </form>
 
         </div>
@@ -153,6 +156,14 @@ th{
     position: absolute;
     right: 130px;
     bottom: 275px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
 
